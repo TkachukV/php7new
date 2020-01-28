@@ -6,6 +6,7 @@ use classes\Argon2;
 use classes\Calculate;
 use classes\CoalescingOperator;
 use classes\Employee;
+use classes\IsCountable;
 use classes\Token;
 
 require_once __DIR__ . '/vendor/autoload.php';
@@ -25,4 +26,10 @@ $argon2 = new Argon2();
 $argon2->setPass("abra");
 $argon2->hashPasswordArgon();
 echo $argon2->pass;
+
+$var = new IsCountable();
+$one[] = 1;
+$var->isCountableVar($one);
+
+
 
