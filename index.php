@@ -7,6 +7,7 @@ use classes\Calculate;
 use classes\CoalescingOperator;
 use classes\Employee;
 use classes\IsCountable;
+use classes\KeyArray;
 use classes\Token;
 
 require_once __DIR__ . '/vendor/autoload.php';
@@ -31,5 +32,7 @@ $var = new IsCountable();
 $one[] = 1;
 $var->isCountableVar($one);
 
-
+$keyArr = new KeyArray();
+$k = $keyArr->getFirstKey($one);
+echo $k;
 

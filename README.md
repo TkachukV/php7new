@@ -68,6 +68,21 @@
 
    
    </li>
+   <LI>
+        <b>В PHP 7.3 Добавление функций array_key_first() и array_key_last()</b><br>
+        
+        // usage of an associative array
+        $array = ['a' => 1, 'b' => 2, 'c' => 3];
+        $firstKey = array_key_first($array);
+        assert($firstKey === 'a');
+        
+        // usage of a numeric array
+        $array = [1 => 'a', 2 => 'b', 3 => 'c'];
+        $firstKey = array_key_first($array);
+        assert($firstKey === 1);
+        
+        
+   </LI>
     
 </ol>
 
