@@ -68,7 +68,7 @@
 
    
    </li>
-   <LI>
+   <li>
         <b>В PHP 7.3 Добавление функций array_key_first() и array_key_last()</b><br>
         
         // usage of an associative array
@@ -82,8 +82,18 @@
         assert($firstKey === 1);
         
         
-   </LI>
-    
+   </li>
+    <li>
+            <b>В PHP 7.4 Добавление Типизированные свойства классов</b><br>
+            
+            class Bar
+            {
+                public string $name;
+                protected ?int $amount;
+                private Foo $foo;
+            }
+
+    </li>
 </ol>
 
 
