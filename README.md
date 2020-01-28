@@ -57,6 +57,17 @@
 
         
    </li>
+   <li>
+        <b>В PHP 7.3 Добавление функции is_countable() </b><br>
+   
+        if (is_countable($someVar)) {  
+          echo count($someVar);  
+        }  else {
+          echo ‘$someVar is not countable’;  
+        }
+
+   
+   </li>
     
 </ol>
 
