@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use classes\Argon2;
 use classes\Calculate;
 use classes\CoalescingOperator;
 use classes\Employee;
@@ -19,4 +20,9 @@ var_dump($calc->getSum(1, 2));
 
 $tok = new Token();
 
+
+$argon2 = new Argon2();
+$argon2->setPass("abra");
+$argon2->hashPasswordArgon();
+echo $argon2->pass;
 

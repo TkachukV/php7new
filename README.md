@@ -43,6 +43,18 @@
                     	private const FOO = 1, BAR = 2;
 
    <li>
+          <b>В PHP 7.2 Добавлен алгоритм Argon2 в хешировании пароля </b><br>
+        
+        
+        Argon2 — это современный простой алгоритм, направленный на высокую 
+        скорость заполнения памяти и эффективное использование нескольких вычислительных блоков.
+        
+        echo 'Хеш Argon2i: ' . password_hash('rasmuslerdorf', PASSWORD_ARGON2I);
+        
+        // Хеш Argon2i:
+        // $argon2i$v=19$m=1024,t=2,p=2$YzJBSzV4TUhkMzc3d3laeg$zqU/1IN0/AogfP4cmSJI1vc8lpXRW9/S0sYY2i2jHT0
+
+
         
    </li>
     
