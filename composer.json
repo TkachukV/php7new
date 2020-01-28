@@ -1,10 +1,10 @@
 {
-  "name": "vlad/php7new",
+  "name": "nukzar/php7new",
   "description": "this new function php7",
   "license": "MIT",
   "authors": [
     {
-      "name": "Vlad",
+      "name": "Nukzar",
       "email": "tkachukvladislavo@gmail.com"
     }
   ],
