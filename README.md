@@ -96,6 +96,8 @@
     </li>
 </ol>
 
+<h2>Уствновка</h2>
+ git clone https://github.com/TkachukV/php7new.git
 
 <h2>Licinse</h2>
 Этот проект лицензирован по лицензии MIT - подробности см. В файле LICENSE
