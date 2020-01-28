@@ -1,0 +1,19 @@
+{
+  "name": "vlad/php7new",
+  "description": "this new function php7",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vlad",
+      "email": "tkachukvladislavo@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "": ""
+    }
+  }
+}
